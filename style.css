@@ -529,7 +529,7 @@ body {
       padding-bottom: 10px;
     }
     .footer-socials {
-      margin-bottom: 40px;
+      padding-bottom: 40px;
     }
   }
   
@@ -567,6 +567,11 @@ body {
       height: 300px;
       width: 350px;
     }
+
+    .social-icons-container {
+      width: 100%;
+      margin-bottom: 40px;
+    }
   }
   
   @media screen and (max-width: 380px) {
@@ -599,5 +604,10 @@ body {
     .map iframe {
       height: 300px;
       width: 300px;
+    }
+
+    .social-icons-container {
+      width: 100%;
+      margin-bottom: 40px;
     }
   }
