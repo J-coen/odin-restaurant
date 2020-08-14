@@ -10,6 +10,10 @@
   font-family: 'Quattrocento', serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
 }
@@ -572,9 +576,16 @@ body {
       width: 100%;
       margin-bottom: 40px;
     }
+
+    .footer {
+      padding: 20px;
+    }
   }
   
   @media screen and (max-width: 380px) {
+    body {
+      overflow-x: hidden;
+    }
     .banner-sect {
         height: 600px;
         margin-bottom: 50px;
@@ -587,8 +598,8 @@ body {
     }
 
     .intro-sect-pic {
-        width: 300px;
-        left: 50px;
+        width: 280px;
+        left: 40px;
     }
     .back-box {
         width: 300px;
@@ -604,6 +615,10 @@ body {
     .map iframe {
       height: 300px;
       width: 300px;
+    }
+
+    .footer {
+      padding: 20px;
     }
 
     .social-icons-container {
