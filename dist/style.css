@@ -134,7 +134,7 @@ body {
 .main-banner-img {
   height: 100%;
   width: 100%;
-  background: url(/dist/782e083f27f5dc52ec81228373c9522f.jpg) no-repeat;
+  background: url(./782e083f27f5dc52ec81228373c9522f.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -198,7 +198,7 @@ body {
 .intro-sect-pic {
     height: 250px;
     width: 400px;
-    background: url(/src/images/pexels-ponyo-sakana-4193849.jpg) no-repeat;
+    background: url(./af62d7f5463235709a0855f96a3da485.jpg) no-repeat;
     background-size: cover;
     position: absolute;
     top: 30px;
