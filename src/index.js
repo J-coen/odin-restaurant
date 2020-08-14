@@ -1,7 +1,7 @@
 import { loadHome } from './loadHome'
 import { navLinks } from './navLinks'
 import { loadBurger } from './burger'
-import "./style.css"
+// import "./style.css"
 
 
 loadHome();
