@@ -13,12 +13,12 @@
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 #content {
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -536,6 +536,9 @@ body {
   }
   
   @media screen and (max-width: 480px) {
+    #content {
+      overflow-x: hidden;
+    }
     .main-words {
         font-size: 90px;
     }
@@ -572,16 +575,15 @@ body {
 
     .social-icons-container {
       width: 100%;
-      margin-bottom: 40px;
     }
 
     .footer {
-      padding: 20px;
+      padding: 40px 0 20px;
     }
   }
   
   @media screen and (max-width: 380px) {
-    body {
+    #content {
       overflow-x: hidden;
     }
     .banner-sect {
@@ -616,7 +618,7 @@ body {
     }
 
     .footer {
-      padding: 20px;
+      padding: 40px 0 20px;
     }
 
     .social-icons-container {
