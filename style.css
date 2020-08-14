@@ -134,7 +134,7 @@ body {
 .main-banner-img {
   height: 100%;
   width: 100%;
-  background: url(images/pexels-buenosia-carol-1907229.jpg) no-repeat;
+  background: url(/src/images/pexels-buenosia-carol-1907229.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }
