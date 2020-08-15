@@ -27,6 +27,7 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 10px 30px;
+  position: relative;
 }
 
 .navbar ul {
@@ -72,14 +73,14 @@ body {
     top: 0;
     right: 0;
     z-index: 20;
-    transition: .8s;
+    transition: .6s;
   }
   
   
   .side-nav ul {
     height: 100%;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -131,6 +132,8 @@ body {
   justify-content: space-around;
   color: #fff;
   margin-bottom: 30px;
+  position: relative;
+
 }
 
 .main-banner-img {
@@ -138,7 +141,6 @@ body {
   width: 100%;
   background: url(./782e083f27f5dc52ec81228373c9522f.jpg) no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .main-banner-img::after {
@@ -152,6 +154,8 @@ body {
 
 .banner-text {
     position: absolute;
+    top: 15%;
+    left: 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -390,6 +394,10 @@ body {
     justify-content: space-around;
 }
 
+.footer section {
+  height: 100%;
+}
+
 .footer article {
     margin-top: 20px;
 }
@@ -523,7 +531,7 @@ body {
 
     .footer {
       height: 100%;
-      padding: 0 100px;
+      padding: 50px 100px;
       flex-direction: column;
       text-align: center;
     }
@@ -536,9 +544,9 @@ body {
   }
   
   @media screen and (max-width: 480px) {
-    #content {
+    /* #content {
       overflow-x: hidden;
-    }
+    } */
     .main-words {
         font-size: 90px;
     }
