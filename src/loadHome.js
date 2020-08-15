@@ -19,7 +19,7 @@ const loadHome = function() {
         <div class="line"></div>
       </article>
       
-      <ul>
+      <ul class="side-nav-ul">
         <li><a class="nav-home" href="#">HOME</a></li>
         <li><a class="nav-menu" href="#">MENU</a></li>
         <li><a class="nav-contact" href="#">CONTACT</a></li>
@@ -53,27 +53,29 @@ const loadHome = function() {
   </section>
   
   <footer class="footer">
-      <article class="footer-address">
-          <p class="footer-titles">Address</p>
-          <p>11 Downing St,</p>
-          <p>Westminster,</p>
-          <p>London,</p>
-          <p>SW1A 2AA,</p>
-      </article>
-      <article class="footer-food">
-          <p class="footer-titles">Our Food</p>
-          <p>Allergens</p>
-          <p>Our Mission</p>
-          <p>Gift Cards</p>
-      </article>
-      <article class="footer-socials">
-          <p class="footer-titles">Connect With Us: </p>
-          <article class="social-icons-container">
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-twitter"></i>
-            </article>
-      </article>
+      <section>
+        <article class="footer-address">
+            <p class="footer-titles">Address</p>
+            <p>11 Downing St,</p>
+            <p>Westminster,</p>
+            <p>London,</p>
+            <p>SW1A 2AA,</p>
+        </article>
+        <article class="footer-food">
+            <p class="footer-titles">Our Food</p>
+            <p>Allergens</p>
+            <p>Our Mission</p>
+            <p>Gift Cards</p>
+        </article>
+        <article class="footer-socials">
+            <p class="footer-titles">Connect With Us: </p>
+            <article class="social-icons-container">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+              </article>
+        </article>
+      </section>
   </footer>
 
     `;
